@@ -1,17 +1,17 @@
 // Factory simples
 function criarPessoa() {
-    return {
-        nome: "Ana",
-        sobrenome: "Silva"
-    }
+  return {
+    nome: "Ana",
+    sobrenome: "Silva"
+  };
 }
-console.log(criarPessoa())
+console.log(criarPessoa());
 
 function criarProduto(nome, preco) {
-    return {
-        nome,
-        preco,
-        desconto: 0.1
-    }
+  return {
+    nome,
+    preco,
+    desconto: 0.1
+  };
 }
-console.log(criarProduto("Notebook", 7000))
+console.log(criarProduto("Notebook", 7000));

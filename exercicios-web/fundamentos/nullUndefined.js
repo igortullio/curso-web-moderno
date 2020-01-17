@@ -1,9 +1,9 @@
-let valor
-console.log(valor)
+let valor;
+console.log(valor);
 
-valor = null //ausência de valor
-console.log(valor)
+valor = null; //ausência de valor
+console.log(valor);
 
-const produto = {}
-console.log(produto.preco)
-console.log(produto)
+const produto = {};
+console.log(produto.preco);
+console.log(produto);

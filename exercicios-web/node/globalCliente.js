@@ -1,6 +1,6 @@
-require('./global')
+require("./global");
 
-console.log(MinhaApp.saudacao())
+console.log(MinhaApp.saudacao());
 
-MinhaApp.nome = 'Outro nome'
-console.log(MinhaApp.nome)
+MinhaApp.nome = "Outro nome";
+console.log(MinhaApp.nome);

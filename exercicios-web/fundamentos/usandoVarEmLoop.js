@@ -3,9 +3,9 @@
 }
 console.log(i) */
 
-const funcs = []
+const funcs = [];
 for (var i = 0; i < 10; i++) {
-    funcs.push(() => console.log(i))
+  funcs.push(() => console.log(i));
 }
-funcs[2]()
-funcs[8]()
+funcs[2]();
+funcs[8]();

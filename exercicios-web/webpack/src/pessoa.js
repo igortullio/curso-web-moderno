@@ -1,5 +1,5 @@
 export default class Pessoa {
-    cumprimentar() {
-        return 'Bom dia!'
-    }
+  cumprimentar() {
+    return "Bom dia!";
+  }
 }

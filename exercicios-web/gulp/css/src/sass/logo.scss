@@ -1,13 +1,13 @@
 aside.logo {
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    background-color: $cor-primaria;
-    color: $cor-branca;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background-color: $cor-primaria;
+  color: $cor-branca;
 }
 
-@media(max-width: $largura-celular) {
-    aside.logo {
-        justify-content: center;
-    }
+@media (max-width: $largura-celular) {
+  aside.logo {
+    justify-content: center;
+  }
 }

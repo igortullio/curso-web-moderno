@@ -1,26 +1,26 @@
-function tratarErroELancar (erro) {
-    /* throw new Error("...")
+function tratarErroELancar(erro) {
+  /* throw new Error("...")
     throw 10
     throw true
     throw "Mensagem" */
-    throw {
-        nome: erro.name,
-        msg: erro.message,
-        date: new Date
-    }
+  throw {
+    nome: erro.name,
+    msg: erro.message,
+    date: new Date()
+  };
 }
 
 function imprimirNomeGritado(obj) {
-    try {
-        console.log(obj.name.toUpperCase().concat("!!!"))    
-    } catch (e) {
-        tratarErroELancar(e)
-    } finally {
-        console.log("Final")
-    }
+  try {
+    console.log(obj.name.toUpperCase().concat("!!!"));
+  } catch (e) {
+    tratarErroELancar(e);
+  } finally {
+    console.log("Final");
+  }
 }
 
 const obj = {
-    nome: "Roberto"
-}
-imprimirNomeGritado(obj)
+  nome: "Roberto"
+};
+imprimirNomeGritado(obj);

@@ -1,23 +1,22 @@
 {
+  {
     {
-        {
-            {
-                var sera = "Será???"
-            }
-        }
+      {
+        var sera = "Será???";
+      }
     }
+  }
 }
-console.log(sera)
+console.log(sera);
 
 function teste() {
-    var local = 123
+  var local = 123;
 }
 //console.log(local)
 
-
-var numero = 1
+var numero = 1;
 {
-    var numero = 2
-    console.log(numero)
+  var numero = 2;
+  console.log(numero);
 }
-console.log(numero)
+console.log(numero);

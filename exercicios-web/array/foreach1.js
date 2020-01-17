@@ -1,12 +1,11 @@
-const aprovados = ["Agatha", "Aldo", "Daniel", "Raquel"]
+const aprovados = ["Agatha", "Aldo", "Daniel", "Raquel"];
 
 aprovados.forEach(function(elemento, indice, array) {
-    console.log(`${indice + 1}) ${elemento}`)
-    console.log(array)
-})
+  console.log(`${indice + 1}) ${elemento}`);
+  console.log(array);
+});
 
-aprovados.forEach(nome => console.log(nome))
+aprovados.forEach(nome => console.log(nome));
 
-const exibirAprovados = aprovados => console.log(aprovados)
-aprovados.forEach(exibirAprovados)
-
+const exibirAprovados = aprovados => console.log(aprovados);
+aprovados.forEach(exibirAprovados);

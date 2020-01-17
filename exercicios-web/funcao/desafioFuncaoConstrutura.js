@@ -1,9 +1,7 @@
-function Pessoa (nome) {
-
-    this.fala = function() {
-        console.log(`Meu nome é ${nome}`)
-    }
-
+function Pessoa(nome) {
+  this.fala = function() {
+    console.log(`Meu nome é ${nome}`);
+  };
 }
-const p1 = new Pessoa(`João`)
-p1.fala()
+const p1 = new Pessoa(`João`);
+p1.fala();
